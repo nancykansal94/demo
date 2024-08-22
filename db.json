@@ -1,14 +1,38 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "items": [
+    {
+      "id": 1,
+      "name": "Item 1",
+      "description": "This is the description for item 1",
+      "assets": [
+        {
+          "id": 1,
+          "url": "https://example.com/image1.jpg",
+          "name": "Image 1"
+        },
+        {
+          "id": 2,
+          "url": "https://example.com/image2.jpg",
+          "name": "Image 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Item 2",
+      "description": "This is the description for item 2",
+      "assets": [
+        {
+          "id": 3,
+          "url": "https://example.com/image3.jpg",
+          "name": "Image 3"
+        },
+        {
+          "id": 4,
+          "url": "https://example.com/image4.jpg",
+          "name": "Image 4"
+        }
+      ]
+    }
+  ]
 }
